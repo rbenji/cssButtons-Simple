@@ -1,0 +1,73 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+
+p {
+	text-align: center;
+}
+
+.button-container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.buttons {
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.buttons ul {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+}
+
+.buttons ul li {
+	display: inline-block;
+	vertical-align: top;
+	margin: 12px 12px 12px;
+}
+
+.buttons ul li a {
+	display: inline-block;
+	line-height: 150px;
+	
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	
+	background: gray;
+	
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	margin: 0 auto;
+	
+	transition: all 0.5s ease-in-out; 
+	-webkit-transition: all 0.5s ease-in-out; 
+	-ms-transition: all 0.5s ease-in-out; 
+	-o-transition: all 0.5s ease-in-out; 
+	-moz-transition: all 0.5s ease-in-out;
+}
+
+.buttons ul li a:hover {
+	background:blue;
+	transform:scale(1.25,1.25);
+	-webkit-transform:scale(1.25,1.25);
+	-ms-transform:scale(1.25,1.25);
+	-o-transform:scale(1.25,1.25);
+	-moz-transform:scale(1.25,1.25);
+}
+	
+
+/*
+.buttons span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;      
+}
+*/
+
+.image-spacer {
+}
